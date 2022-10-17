@@ -12,7 +12,7 @@ class Apple {
                 }
             }
 
-            this.size = snake.size
+            this.size = snake.size-5
             this.color = "red"
             if (!isTouching) {
                 break;

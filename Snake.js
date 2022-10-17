@@ -10,7 +10,6 @@ class Snake {
 
     move() {
         let newRect
-
         if (this.rotateX == 1) {
             newRect = {
                 x: this.tail[this.tail.length - 1].x + this.size,
